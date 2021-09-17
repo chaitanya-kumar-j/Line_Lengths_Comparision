@@ -6,7 +6,9 @@ namespace LineLengths
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!\nWelcome to Line lengths comparision problem.");
+            // Calculate length of line between two given points.
+            double length = new Lines().Length(0,8,6,0);
+            Console.WriteLine($"Length of the line is: {length}");
         }
     }
 }
